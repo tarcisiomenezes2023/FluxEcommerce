@@ -2,3 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
+
+header {
+    background-color: rgb(47, 255, 0);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .top {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        img {
+        }
+
+        form {
+
+            input {
+            }
+            button {
+            }
+        }
+
+        .Auth {
+        }
+    }
+
+    .down {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .LeftLinks {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        .RightLinks {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+    }
+}
+
+    
